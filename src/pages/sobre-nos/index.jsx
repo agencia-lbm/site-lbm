@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-import SobreNos from '../../components/SobreNos';
+import SobreNos from '../../modules/SobreNos';
 
 export default function Home() {
   return (
