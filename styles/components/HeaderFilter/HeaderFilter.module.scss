@@ -1,0 +1,40 @@
+.headerWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  width: 90%;
+  background-color: #000;
+  position: fixed;
+
+  padding: 0 5vw;
+}
+.logoHeader{
+  width: 50%;
+
+  img{
+    width: 15%;
+  }
+}
+.menuHeader{
+  width: 50%;
+
+  nav{
+    color: #fff;
+
+    ul{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      
+      li{
+        font-weight: bold;
+        font-size: 19px;
+
+        img{
+          width: 25%;
+        }
+      }
+    }
+  }
+}
