@@ -1,0 +1,11 @@
+.jobsWrapper {
+  .jobsItem {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    .item {
+      width: 25%;
+    }
+  }
+}

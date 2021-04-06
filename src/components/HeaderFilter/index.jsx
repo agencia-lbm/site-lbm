@@ -13,7 +13,9 @@ export default function Header() {
             <li>SOBRE</li>
             <li>TRABALHOS</li>
             <li>CONTATO</li>
-            <li><img src="/assets/images/search.png" alt="" /></li>
+            <li>
+              <img src="/assets/images/search.png" alt="" />
+            </li>
           </ul>
         </nav>
       </div>

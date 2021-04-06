@@ -1,4 +1,4 @@
-.headerWrapper{
+.headerWrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -8,29 +8,32 @@
 
   padding: 0 5vw;
 }
-.logoHeader{
+.logoHeader {
   width: 50%;
 
-  img{
+  img {
     width: 15%;
   }
 }
-.menuHeader{
+.menuHeader {
   width: 50%;
 
-  nav{
-    color: #fff;
-
-    ul{
+  nav {
+    ul {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      
-      li{
+
+      li {
         font-weight: bold;
         font-size: 19px;
 
-        img{
+        a {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        img {
           width: 25%;
         }
       }

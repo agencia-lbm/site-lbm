@@ -1,15 +1,18 @@
 import HeaderFilter from '../../components/HeaderFilter';
 import Footer from '../../components/Footer';
 
-import Filtro from './Filtro'
+import FilterProvider from '../../context/Filter';
 
+import Filtro from './Filtro';
+import Jobs from './Jobs';
 
 export default function SobreNos() {
-    return (
-        <>
-            <HeaderFilter />
-            <Filtro />
-            <Footer />
-        </>
-    );
+  return (
+    <FilterProvider>
+      <HeaderFilter />
+      <Filtro />
+      <Jobs />
+      <Footer />
+    </FilterProvider>
+  );
 }

@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import styles from '../../../styles/components/Header/Header.module.scss';
 
 export default function Header() {
@@ -9,11 +11,21 @@ export default function Header() {
       <div className={styles.menuHeader}>
         <nav>
           <ul>
-            <li>HOME</li>
-            <li>SOBRE</li>
-            <li>TRABALHOS</li>
-            <li>CONTATO</li>
-            <li><img src="/assets/images/search.png" alt="" /></li>
+            <li>
+              <Link href="/">HOME</Link>
+            </li>
+            <li>
+              <Link href="/sobre-nos">SOBRE</Link>
+            </li>
+            <li>
+              <Link href="/trabalhos">TRABALHOS</Link>
+            </li>
+            <li>
+              <Link href="/contato">CONTATO</Link>
+            </li>
+            <li>
+              <img src="/assets/images/search.png" alt="" />
+            </li>
           </ul>
         </nav>
       </div>
