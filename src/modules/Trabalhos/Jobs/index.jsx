@@ -12,10 +12,11 @@ export default function Jobs() {
   return (
     <section className={styles.jobsWrapper}>
       <div className={styles.jobsItem}>
-        {jobs.map((job) =>
+        {jobs.trabalhos.map((job) =>
           services === '' ? (
             <div key={job.id} className={styles.item}>
               <a href={job.link}>
+
                 <img src={job.thumb} alt={job.cliente} />
               </a>
             </div>

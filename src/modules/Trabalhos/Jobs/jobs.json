@@ -1,65 +1,270 @@
-[
-  {
-    "id": "1",
-    "cliente": "digitalidade",
-    "servico": "site",
-    "thumb": "/assets/images/trabalhos/digitalidade-thumb.png",
-    "link": "/digitalidade"
-  },
-  {
-    "id": "2",
-    "cliente": "fabio vitti",
-    "servico": "social",
-    "thumb": "/assets/images/trabalhos/fabio-thumb.png",
-    "link": "/fabio-vitti"
-  },
-  {
-    "id": "3",
-    "cliente": "grupo gradiente",
-    "servico": "site",
-    "thumb": "/assets/images/trabalhos/gradiente-thumb.png",
-    "link": "/grupo-gradiente"
-  },
-  {
-    "id": "4",
-    "cliente": "hpurset",
-    "servico": "site",
-    "thumb": "/assets/images/trabalhos/hpurset-thumb.png",
-    "link": "/hpurset"
-  },
-  {
-    "id": "5",
-    "cliente": "wayback",
-    "servico": "seo",
-    "thumb": "/assets/images/trabalhos/wayback-thumb.png",
-    "link": "/wayback"
-  },
-  {
-    "id": "6",
-    "cliente": "sedafio",
-    "servico": "site",
-    "thumb": "/assets/images/trabalhos/sedafio-thumb.png",
-    "link": "/sedafio"
-  },
-  {
-    "id": "7",
-    "cliente": "longevidade",
-    "servico": "aplicativo",
-    "thumb": "/assets/images/trabalhos/longevidade-thumb.png",
-    "link": "/longevidade"
-  },
-  {
-    "id": "8",
-    "cliente": "tricotali",
-    "servico": "site",
-    "thumb": "/assets/images/trabalhos/tricotali-thumb.png",
-    "link": "/tricotali"
-  },
-  {
-    "id": "9",
-    "cliente": "galvao",
-    "servico": "seo",
-    "thumb": "/assets/images/trabalhos/galvao-thumb.png",
-    "link": "/galvao"
-  }
-]
+{
+  "trabalhos": [
+    {
+      "id": "1",
+      "cliente": "digitalidade",
+      "servico": "identidade-visual",
+      "thumb": "/assets/images/trabalhos/digitalidade-identidade-visual-thumb.png",
+      "link": "/digitalidade-identidade-visual",
+      "tag": [
+        "identidade-visual",
+        "digitalidade"
+      ]
+    },
+    {
+      "id": "2",
+      "cliente": "grupo-gradiente",
+      "servico": "site-institucional",
+      "thumb": "/assets/images/trabalhos/grupo-gradiente-site-institucional-thumb.png",
+      "link": "/grupo-gradiente-site-institucional",
+      "tag": [
+        "site-institucional",
+        "grupo-gradiente"
+      ]
+    },
+    {
+      "id": "3",
+      "cliente": "fabio-vitti",
+      "servico": "identidade-visual",
+      "thumb": "/assets/images/trabalhos/fabio-vitti-identidade-visual-thumb.png",
+      "link": "/fabio-vitti-identidade-visual",
+      "tag": [
+        "identidade-visual",
+        "fabio-vitti"
+      ]
+    },
+    {
+      "id": "4",
+      "cliente": "rappibank",
+      "servico": "redes-sociais",
+      "thumb": "/assets/images/trabalhos/rappibank-redes-sociais-thumb.png",
+      "link": "/rappibank-redes-sociais",
+      "tag": [
+        "redes-sociais",
+        "rappibank"
+      ]
+    },
+    {
+      "id": "5",
+      "cliente": "galvão-advogados",
+      "servico": "papelaria-corporativa",
+      "thumb": "/assets/images/trabalhos/galvão-advogados-papelaria-corporativa-thumb.png",
+      "link": "/galvão-advogados-papelaria-corporativa",
+      "tag": [
+        "papelaria-corporativa",
+        "galvao-advogados"
+      ]
+    },
+    {
+      "id": "6",
+      "cliente": "tempero=pet",
+      "servico": "google-ads",
+      "thumb": "/assets/images/trabalhos/tempero-pet-google-ads-thumb.png",
+      "link": "/tempero-pet-google-ads"
+    },
+    {
+      "id": "7",
+      "cliente": "longevidade-expo+forum",
+      "servico": "aplicativo",
+      "thumb": "/assets/images/trabalhos/longevidade-expo+forum-aplicativo-thumb.png",
+      "link": "/longevidade-expo+forum-aplicativo"
+    },
+    {
+      "id": "8",
+      "cliente": "tricotali",
+      "servico": "e-commerce",
+      "thumb": "/assets/images/trabalhos/tricotali-e-commerce-thumb.png",
+      "link": "/tricotali-e-commerce"
+    },
+    {
+      "id": "9",
+      "cliente": "wayback",
+      "servico": "papelaria-corporativa",
+      "thumb": "/assets/images/trabalhos/wayback-papelaria-corporativa-thumb.png",
+      "link": "/wayback-papelaria-corporativa"
+    },
+    {
+      "id": "10",
+      "cliente": "connection-line",
+      "servico": "redes-sociais",
+      "thumb": "/assets/images/trabalhos/connection-line-redes-sociais-thumb.png",
+      "link": "/connection-line-redes-sociais"
+    },
+    {
+      "id": "11",
+      "cliente": "bruna-munhoz",
+      "servico": "identidade-visual",
+      "thumb": "/assets/images/trabalhos/bruna-munhoz-identidade-visual-thumb.png",
+      "link": "/bruna-munhoz-identidade-visual"
+    },
+    {
+      "id": "12",
+      "cliente": "sedafio-tecidos",
+      "servico": "site-institucional",
+      "thumb": "/assets/images/trabalhos/sedafio-tecidos-site-institucional-thumb.png",
+      "link": "/sedafio-tecidos-site-institucional"
+    },
+    {
+      "id": "13",
+      "cliente": "alvares-advocacia",
+      "servico": "identidade-visual",
+      "thumb": "/assets/images/trabalhos/alvares-advocacia-identidade-visual-thumb.png",
+      "link": "/alvares-advocacia-identidade-visual"
+    },
+    {
+      "id": "14",
+      "cliente": "infinito",
+      "servico": "landing-page",
+      "thumb": "/assets/images/trabalhos/infinito-landing-page-thumb.png",
+      "link": "/infinito-landing-page"
+    },
+    {
+      "id": "15",
+      "cliente": "pragmatic-engenharia",
+      "servico": "identidade-visual",
+      "thumb": "/assets/images/trabalhos/pragmatic-engenharia-identidade-visual-thumb.png",
+      "link": "/pragmatic-engenharia-identidade-visual"
+    },
+    {
+      "id": "16",
+      "cliente": "rappibank",
+      "servico": "site-institucional",
+      "thumb": "/assets/images/trabalhos/rappibank-site-institucional-thumb.png",
+      "link": "/rappibank-site-institucional"
+    },
+    {
+      "id": "17",
+      "cliente": "galvao-advogados",
+      "servico": "site-institucional",
+      "thumb": "/assets/images/trabalhos/galvao-advogados-site-institucional-thumb.png",
+      "link": "/galvao-advogados-site-institucional"
+    },
+    {
+      "id": "18",
+      "cliente": "longevidade-expo+forum",
+      "servico": "site-institucional",
+      "thumb": "/assets/images/trabalhos/longevidade-expo+forum-site-institucional-thumb.png",
+      "link": "/longevidade-expo+forum-site-institucional"
+    },
+    {
+      "id": "19",
+      "cliente": "tricotali",
+      "servico": "identidade-visual",
+      "thumb": "/assets/images/trabalhos/tricotali-identidade-visual-thumb.png",
+      "link": "/tricotali-identidade-visual"
+    },
+    {
+      "id": "20",
+      "cliente": "almeida-vargas-odontologia",
+      "servico": "redes-sociais",
+      "thumb": "/assets/images/trabalhos/almeida-vargas-odontologia-identidade-visual-thumb.png",
+      "link": "/almeida-vargas-odontologia-identidade-visual"
+    }
+  ],
+  "filtro": [
+    {
+      "servicosNome": [
+        {
+          "nome": "Site Institucional",
+          "value": "site-institucional"
+        },
+        {
+          "nome": "E-Commerce",
+          "value": "e-commerce"
+        },
+        {
+          "nome": "Landing Page",
+          "value": "landing-page"
+        },
+        {
+          "nome": "Identidade Visual",
+          "value": "identidade-visual"
+        },
+        {
+          "nome": "Redes Sociais",
+          "value": "redes-sociais"
+        },
+        {
+          "nome": "Google Ads",
+          "value": "google-ads"
+        },
+        {
+          "nome": "Papelaria Corporativa",
+          "value": "papelaria-corporativa"
+        },
+        {
+          "nome": "Aplicativo",
+          "value": "aplicativo"
+        }
+      ]
+    },
+    {
+      "clientesNome": [
+        {
+          "nome": "Almeida Vargas Odontologia",
+          "value": "almeida-vargas-odontologia"
+        },
+        {
+          "nome": "Alvares Advocacia",
+          "value": "alvares-advocacia"
+        },
+        {
+          "nome": "Dra. Bruna Munhoz",
+          "value": "dra-bruna-munhoz"
+        },
+        {
+          "nome": "Connection Line",
+          "value": "connection-line"
+        },
+        {
+          "nome": "Digitalidade",
+          "value": "digitalidade"
+        },
+        {
+          "nome": "Fábio Vitti Fotografia",
+          "value": "fabio-vitti-fotografia"
+        },
+        {
+          "nome": "Galvão Advogados",
+          "value": "galvao-advogados"
+        },
+        {
+          "nome": "Grupo Gradiente",
+          "value": "grupo-gradiente"
+        },
+        {
+          "nome": "inFINITO",
+          "value": "infinito"
+        },
+        {
+          "nome": "Longevidade Expo+Fórum",
+          "value": "longevidade-expo+forum"
+        },
+        {
+          "nome": "Pragmatic Engenharia",
+          "value": "pragmatic-engenharia"
+        },
+        {
+          "nome": "RappiBank",
+          "value": "rappibank"
+        },
+        {
+          "nome": "Sedafio Tecidos",
+          "value": "sedafio-tecidos"
+        },
+        {
+          "nome": "Tempero Pet",
+          "value": "tempero-pet"
+        },
+        {
+          "nome": "Tricotali - Tricot e Malharia",
+          "value": "tricotali-tricot-e-malharia"
+        },
+        {
+          "nome": "Wayback",
+          "value": "wayback"
+        }
+      ]
+    }
+  ]
+}
