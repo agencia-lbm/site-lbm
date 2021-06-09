@@ -1,4 +1,4 @@
-import styles from '../../../../styles/modules/SobreNos/MensagemPresidente/MensagemPresidente.module.scss'
+import styles from './MensagemPresidente.module.scss'
 
 export default function MensagemPresidente() {
     return (

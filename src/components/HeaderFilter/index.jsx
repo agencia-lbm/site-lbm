@@ -1,4 +1,6 @@
-import styles from '../../../styles/components/HeaderFilter/HeaderFilter.module.scss';
+import Link from 'next/link';
+
+import styles from './HeaderFilter.module.scss';
 
 export default function Header() {
   return (
@@ -9,13 +11,21 @@ export default function Header() {
       <div className={styles.menuHeader}>
         <nav>
           <ul>
-            <li>HOME</li>
-            <li>SOBRE</li>
-            <li>TRABALHOS</li>
-            <li>CONTATO</li>
             <li>
-              <img src="/assets/images/search.png" alt="" />
+              <Link href="/">HOME</Link>
             </li>
+            <li>
+              <a href="/sobre-nos">SOBRE</a>
+            </li>
+            <li>
+              <Link href="/trabalhos">TRABALHOS</Link>
+            </li>
+            <li>
+              <Link href="/contato">CONTATO</Link>
+            </li>
+            {/* <li>
+              <img src="/assets/images/search.png" alt="" />
+            </li> */}
           </ul>
         </nav>
       </div>

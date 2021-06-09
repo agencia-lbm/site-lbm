@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import styles from '../../../styles/components/Header/Header.module.scss';
+import styles from './Header.module.scss';
 
 export default function Header() {
   return (
@@ -15,7 +15,7 @@ export default function Header() {
               <Link href="/">HOME</Link>
             </li>
             <li>
-              <Link href="/sobre-nos">SOBRE</Link>
+              <a href="/sobre-nos">SOBRE</a>
             </li>
             <li>
               <Link href="/trabalhos">TRABALHOS</Link>
@@ -23,9 +23,9 @@ export default function Header() {
             <li>
               <Link href="/contato">CONTATO</Link>
             </li>
-            <li>
+            {/* <li>
               <img src="/assets/images/search.png" alt="" />
-            </li>
+            </li> */}
           </ul>
         </nav>
       </div>

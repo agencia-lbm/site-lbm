@@ -1,10 +1,10 @@
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-
 import Banner from './Banner'
-import TextoSobreNos from './TextoSobreNos'
 import MensagemPresidente from './MensagemPresidente'
 
+import dynamic from 'next/dynamic'
+const TextoSobreNos = dynamic(() => import('./TextoSobreNos'), { ssr: false })
 
 export default function SobreNos() {
     return (

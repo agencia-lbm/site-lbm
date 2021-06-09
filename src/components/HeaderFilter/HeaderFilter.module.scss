@@ -21,7 +21,6 @@
   width: 50%;
 
   nav {
-    color: #fff;
 
     ul {
       display: flex;
@@ -31,6 +30,11 @@
       li {
         font-weight: bold;
         font-size: 19px;
+
+        a{
+          color: #fff;
+          text-decoration: none;
+        }
 
         img {
           width: 25%;
