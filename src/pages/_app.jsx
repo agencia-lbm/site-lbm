@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-import '../../styles/globals.css'
+import '../../styles/global.scss'
 
 // eslint-disable-next-line react/prop-types
 function App({ Component, pageProps }) {

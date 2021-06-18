@@ -1,0 +1,54 @@
+.filtroWrapper {
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .itemSelect {
+    width: 100%;
+    position: relative;
+
+    &:first-child {
+      border-right: 1px solid rgba(255, 255, 255, 0.178);
+    }
+
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      background-image: url(/assets/images/seta-select.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 23px;
+      height: 13px;
+      z-index: 9;
+      right: 3vw;
+      top: 44%;
+    }
+
+    select {
+      font-family: 'Poppins';
+      height: 110px;
+      width: 100%;
+      font-style: normal;
+      font-weight: 100;
+      font-size: 29px;
+      line-height: 33px;
+      color: #ffffff;
+      background-color: #181818;
+      text-transform: uppercase;
+      text-align: center;
+      text-align-last: center;
+      border: none;
+      outline: none;
+      appearance: none;
+
+      position: relative;
+
+      option {
+        font-weight: 100;
+        padding: 15px 0;
+      }
+    }
+  }
+}

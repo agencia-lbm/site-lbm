@@ -1,4 +1,4 @@
-import styles from '../../../../styles/modules/Home/SliderHome/SliderHome.module.scss'
+import styles from './SliderHome.module.scss'
 
 export default function SliderHome() {
     return (
