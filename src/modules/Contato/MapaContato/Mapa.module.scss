@@ -1,0 +1,26 @@
+.mapaWrapper {
+    padding-top: 100px;
+
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        height: 100px;
+        border: 1px solid red;
+        margin: 15px auto ;
+        padding-bottom: 30px;
+
+        position: relative;
+
+        div {
+            position: absolute;
+            height: 80px;
+            width: 80%;
+            margin: auto;
+            bottom: -40px;
+            background-color: red;
+            padding-bottom: 0;
+        }
+    }
+}

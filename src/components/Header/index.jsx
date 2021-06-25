@@ -6,7 +6,9 @@ export default function Header() {
   return (
     <header className={styles.headerWrapper}>
       <div className={styles.logoHeader}>
-        <img src="/assets/images/logo.svg" alt="" />
+        <Link href="/">
+          <img src="/assets/images/logo.svg" alt="" />
+        </Link>
       </div>
       <div className={styles.menuHeader}>
         <nav>
